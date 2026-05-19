@@ -1,0 +1,11 @@
+git status //status da pasta, pra ver se tem novos arquivos a serem colocados no commit desde o ultimo commit
+git init //pra fazer a pasta virar repositorio
+git add (nome do arquivo com extensão) //pra adicionar um arquivo especifico par ase preparar pra ir ao repositorio ate commitar 
+git commit -m "nome do commit" //pra commitar uma build pra essa versão especifica
+git branch -m "main" //pra trocar de master pra main
+git remote add origin (link https do seu repositorio github)
+//remote é a conexão entre o repositorio do git e o nosso
+//add pra adicionar
+//origin é o nome do repositorio default
+//git remote é pra so fazer a conexão entre os dois
+git push -u origin main //é pra uplodear teu repositorio local pro git
